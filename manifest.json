@@ -1,0 +1,18 @@
+{
+    "name": "easywork",
+    "description": "upwork helper for freelancers",
+    "version": "1.0",
+    "manifest_version": 3,
+    
+    "content_scripts": [
+        {
+          "matches": ["*://*.upwork.com/nx/find-work/*"],
+          "js": ["content.js"]
+        }
+      ],
+      "icons": {
+        "16": "images/16.png",
+        "48": "images/48.png",
+        "144": "images/128.png"
+      }
+  }
